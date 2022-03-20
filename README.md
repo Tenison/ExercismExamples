@@ -1,5 +1,5 @@
-### This folder for exercies completed on Exercism
-### Porjects here are for learning purposes only
+### This folder contains exercises completed on Exercism
+### For learning purposes only
 
 
 __check out exercism at : https://exercism.org/__
