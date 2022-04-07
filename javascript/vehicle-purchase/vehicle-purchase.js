@@ -23,7 +23,7 @@ export function needsLicense(kind) {
  * @returns {string} a sentence of advice which option to choose
  */
 export function chooseVehicle(option1, option2) {
-  return option1 > option2 ? option1 : option2
+  return option1 < option2 ? option1 + " is clearly the better choice.": option2 + " is clearly the better choice."
 }
 
 /**
@@ -37,7 +37,7 @@ export function chooseVehicle(option1, option2) {
 export function calculateResellPrice(originalPrice, age) {
   if(age < 3){
     return originalPrice * (80/100)
-  }else if (age <= 3 && age <= 10){
+  }else if (age >= 3 && age <= 10){
     return originalPrice * (70/100)
   }
 
